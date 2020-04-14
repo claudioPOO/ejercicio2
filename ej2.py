@@ -14,6 +14,7 @@ def testingviajeros(Listaviajeros):
             cantmillas=fila[4]
             persona=VF(numero,dni,nombre,apellido,cantmillas)
             Listaviajeros.append(persona)
+    archivo.close()
     return        
 def Menu():
     print('*****Menu de opciones**********')
@@ -46,3 +47,4 @@ if __name__=='__main__':
           Listaviajeros[i].canjearMillas(canje)
       Menu()
       opc=input('OPCION -> ')  
+     Ar
